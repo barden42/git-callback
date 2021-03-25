@@ -1,13 +1,8 @@
-const elements = ["FrUitS", "LeGUMeS", "AnimAuX", "VoiTURes"];
+const elements = ["FrUitS", "LeGUMeS", "AnimAuX", "VoiTURes", "Guuugbrubger"];
 
-// function de heaut niveau "transform"
-// la fonction permet de parcourir le tableau
-// appliquer une transformation sur tous les elements du tableaux
-// retourne un nouveau tableau contenant les elements tranformés
-
-// en minuscule
-// en majuscule
-// camel case
+const toCamelCase = () => {
+    //do something
+}
 
 const transform = (array, callback) => {
   const results = [];
@@ -16,7 +11,6 @@ const transform = (array, callback) => {
   }
   return results;
 };
-
 const toLowerCase = (name) => {
   return name.toLowerCase();
 };
@@ -25,4 +19,6 @@ const toUpperCase = (name) => {
   return name.toUpperCase();
 };
 
-const tableauTransforme = transform(elements, toUpperCase);
+//add another one
+
+const tableauTransforme = transform(elements, toCamelCase);

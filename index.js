@@ -1,4 +1,8 @@
-const elements = ["FrUitS", "LeGUMeS", "AnimAuX", "VoiTURes", "HuMAINs];
+const elements = ["FrUitS", "LeGUMeS", "AnimAuX", "VoiTURes", "Guuugbrubger", "HuMAINs"];
+
+const toCamelCase = () => {
+    //do something
+}
 
 const toLowerCase = (name) => {
   return name.toLowerCase();
@@ -16,4 +20,4 @@ const transform = (array, callback) => {
   return results;
 };
 
-const tableauTransforme = transform(elements, toLowerCase);
+const tableauTransforme = transform(elements, toCamelCase);
